@@ -2,7 +2,9 @@
 
 #### Background File Info
 SuiteScan.ply - initial LiDAR scanning data of test scene
+
 Open3D - the library we used for point cloud visualization and mesh rendering
+
 Learning3D - this repository gives us point cloud deep learning capabilities (PCN) and is required for predictive completion enhancement
 
 #### Setup
