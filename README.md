@@ -12,6 +12,11 @@ We used a virtual environment to run our repository on Python3.9, allowing us to
 Before running any of our files, it is essential to spin up the [Learning3D](https://github.com/vinits5/learning3d/tree/master) repository, which contains the Point Completion Network (PCN) deep learning model and pretrained model weights (model pretrained on the [ModelNet40](https://www.kaggle.com/datasets/balraj98/modelnet40-princeton-3d-object-dataset) dataset)
 
 ### Run Instructions
+If you wish, you can first run the PCN model on the testing split of the provided ModelNet40 dataset:
+```
+python learning3d/examples/test_pcn.py 
+```
+Loss is evaulated by Chamfer Distance calculation between input and predicted point clouds.
 Run the following command to test the PCN model on the test scene point cloud:
 ```
 python pcn_enhancement.py
