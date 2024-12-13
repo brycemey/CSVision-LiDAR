@@ -2,7 +2,7 @@
 
 ### Background File Info
 SuiteScan.ply - initial LiDAR scanning data of test scene
-
+https://github.com/brycemey/CSVision-LiDAR/blob/westondcrewe/README.md
 Open3D - the library we used for point cloud visualization and mesh rendering
 
 Learning3D - this repository gives us point cloud deep learning capabilities (PCN) and is required for predictive completion enhancement
@@ -36,3 +36,17 @@ This `pcn_to_mesh.py` file performs the following procedures on the enhanced poi
 4. Minimum density thresholding
 5. Duplicated vertex & degenerate triangle removal
 6. Average filtering
+
+### Example Results
+Initial suite scan \
+<img width="599" alt="suite_scan_2" src="https://github.com/user-attachments/assets/aeab266e-aba1-4b4e-89c2-876f2c4f4f7a" /> \
+Outlier removal \
+<img width="617" alt="suite_outlierremoval" src="https://github.com/user-attachments/assets/fc749004-869b-4ef0-81b0-d578f6d890ed" /> \
+Voxel downsampling \
+<img width="595" alt="suite_voxeldownsampling" src="https://github.com/user-attachments/assets/b8558219-2f9c-4830-8b22-d6852a56a9d5" /> \
+Poisson reconstruction \
+<img width="733" alt="suite_poissonreconstruction" src="https://github.com/user-attachments/assets/2bce4c62-d7c0-4fc5-9324-92c85cded7d5" /> \
+Minimum vertex density treshold \
+<img width="580" alt="suite_minvertexdensitythreshold" src="https://github.com/user-attachments/assets/a255199e-6ba9-4371-b647-9bf884d8b31f" /> \
+Final mesh \
+<img width="623" alt="suite_mesh_2" src="https://github.com/user-attachments/assets/057b76f7-fb48-4b40-a9b4-93191c26f860" /> \
