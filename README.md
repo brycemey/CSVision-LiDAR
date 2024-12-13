@@ -1,9 +1,9 @@
 ## 3D Reconstruction of College Dorm Suite
 
-### Background File Info
+### Background Info
 SuiteScan.ply - initial LiDAR scanning data of test scene
 https://github.com/brycemey/CSVision-LiDAR/blob/westondcrewe/README.md
-Open3D - the library we used for point cloud visualization and mesh rendering
+Open3D - the library we used for point cloud visualization and mesh rendering; Open3D provides example code within documentation that we used for visualization code in notebooks
 
 Learning3D - this repository gives us point cloud deep learning capabilities (PCN) and is required for predictive completion enhancement
 
